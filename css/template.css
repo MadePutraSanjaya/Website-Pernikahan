@@ -1,0 +1,353 @@
+@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Kaushan+Script&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font */
+.basker-font{font-family: 'Baskervville', serif; letter-spacing: 0.1em;}
+.montserrat-font{font-family: 'Montserrat', sans-serif;}
+.poppins-font{font-family: 'Poppins', sans-serif;}
+.kaushan-font{font-family: 'Kaushan Script', cursive; letter-spacing: 2px;}
+
+
+/* title icon */
+.title-icon{
+    width: 100px;
+    
+}
+
+*{
+    font-family: 'Poppins', sans-serif;
+    border: 0;
+}
+.section {
+    padding: 80px 0;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+}
+a{
+    text-decoration: unset !important;
+    
+}
+
+.font-w-1{
+    font-weight: 100;
+}
+.font-w-2{
+    font-weight: 200;
+}
+.font-w-3{
+    font-weight: 300;
+}
+.font-w-4{
+    font-weight: 400;
+}
+.font-w-5{
+    font-weight: 500;
+}
+.font-w-6{
+    font-weight: 600;
+}
+.font-w-7{
+    font-weight: 700;
+}
+.font-w-8{
+    font-weight: 800;
+}
+
+.font-s-14{
+    font-size: 14px;
+}
+
+.font-s-12{
+    font-size: 12px;
+}
+/* line */
+.white-line{
+    height: 2px;
+    width: 50px;
+    margin: 15px 0;
+    background-color: white;
+}
+.white-line-center{
+    height: 2px;
+    width: 50px;
+    margin: 15px auto;
+    background-color: white;
+}
+.white-line-right{
+    height: 2px;
+    width: 50px;
+    margin: 15px 0 15px auto;
+    background-color: white;
+}
+.red-line-center{
+    height: 2px;
+    width: 50px;
+    margin: 15px auto;
+    background-color: #EE273A;
+}
+.pink-line-center{
+    height: 2px;
+    width: 50px;
+    margin: 15px auto;
+    background-color: #F77C7B;
+}
+.black-line{
+    height: 1px;
+    width: 50px;
+    margin: 15px 0 20px;
+    background-color: #212121;
+}
+.brown-line{
+    height: 1px;
+    width: 50px;
+    margin: 15px 0 20px;
+    background-color: #A47E3B;
+}
+/* color */
+.text-white{
+    color: white !important;
+}
+
+.text-dark{
+    color: #212121 !important;
+}
+.text-light{
+    color: #727272 !important;
+}
+.text-gray{
+    color: #7272729f;
+}
+.text-yellow{
+    color: #ffbb28;
+}
+.text-red{
+    color: #EE273A;
+}
+.text-dark-red{
+    color: #AD2D1D;
+}
+.text-blue{
+    color: #272F9B;
+}
+.text-brown{
+    color: #A47E3B;
+    letter-spacing: 0.2em;
+}
+
+
+/* button */
+.btn-outline-white{
+    font-weight: 500;
+    padding: 0.70rem 1.5rem ;
+    position: relative;
+    box-shadow: 0;
+    overflow: hidden;
+    color: white !important;
+    background-color: transparent;
+    border-radius: 5px;
+    border: 2px solid white;
+    transition: 0.5s;
+}
+.btn-outline-white:hover {
+    background-color: #ffffff;
+    border-color: white;
+    color: #EE273A !important;
+}
+.btn-outline-yellow{
+    font-weight: 500;
+    padding: 0.50rem 1.2rem !important;
+    position: relative;
+    box-shadow: 0;
+    overflow: hidden;
+    color: white !important;
+    background-color: #ECA61B;
+    border-radius: 5px;
+    border: 2px solid #ECA61B;
+    transition: 0.5s;
+}
+.btn-outline-yellow:hover {
+    background-color: white;
+    border-color: transparent;
+    color: red !important;
+}
+
+.btn-outline-blue{
+    font-weight: 600;
+    padding: 0.70rem 1.5rem ;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0;
+    overflow: hidden;
+    color: #272F9B !important;
+    background-color: transparent;
+    border: 0;
+    border: 2px solid #272F9B;
+    transition: 0.5s;
+}
+.btn-outline-blue:hover {
+    background-color: #272F9B ;
+    color: white !important;
+}
+
+.btn-outline-red{
+    font-weight: 600;
+    padding: 0.70rem 1.5rem ;
+    border-radius: 5px;
+    position: relative;
+    box-shadow: 0;
+    overflow: hidden;
+    color: #EE273A !important;
+    background-color: transparent;
+    border: 2px solid #EE273A;
+    transition: 0.5s;
+}
+.btn-outline-red:hover {
+    background-color: #EE273A ;
+    color: white !important;
+}
+
+.btn-dark-red{
+    font-weight: 600;
+    padding: 0.70rem 1.5rem ;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0;
+    overflow: hidden;
+    color: white !important;
+    background-color: #AD2D1D;
+    border: 0;
+    transition: 0.5s;
+}
+.btn-dark-red:hover {
+    background-color: #6e1c12;
+    color: #ffffff !important;
+}
+.btn-red{
+    font-weight: 600;
+    padding: 0.70rem 1.5rem ;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 0;
+    overflow: hidden;
+    color: white !important;
+    background-color: #EE273A;
+    border: 2px solid #EE273A;
+    transition: 0.5s;
+}
+.btn-red:hover {
+    background-color: #AD2D1D;
+    border-color: #AD2D1D;
+    color: #ffffff !important;
+}
+
+.btn-brown{
+    font-weight: 400;
+    padding: 0.70rem 1.5rem ;
+    position: relative;
+    box-shadow: 0;
+    overflow: hidden;
+    color: white !important;
+    background-color: #A47E3B;
+    border: 0;
+    transition: 0.5s;
+}
+.btn-brown:hover {
+    background-color: #4d3b1c;
+    color: #ffffff !important;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* form  */
+.form-control{
+    min-height: auto;
+}
+/* container width */
+@media (min-width: 1400px){
+.container {
+    max-width: 1300px;
+}
+}
+
+
+@media (max-width: 991.5px){
+    .section {
+        padding: 60px 0;
+    }
+    a,.form-control,.form-select{
+        font-size: 14px;
+    }
+    p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 25px;
+    }
+    h1{
+        font-size: 34px;
+    }
+    h3{
+        font-size: 22px;
+    }
+    h5{
+        font-size: 16px;
+    }
+    h6{
+        font-size: 14px;
+    }
+    .text-blue{
+        font-size: 14px;
+    }
+    .btn-outline-yellow , .btn-outline-blue ,  .btn-blue{
+        font-size: 14px;
+    }
+
+    .font-s-14{
+        font-size: 12px;
+    }
+    
+    .font-s-12{
+        font-size: 11px;
+    }
+    
+
+}
+
+@media (max-width: 575.5px){
+    .section {
+        padding: 40px 0;
+    }
+    a,.form-control,.form-select{
+        font-size: 12px;
+    }
+    p{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+    }
+    h1{
+        font-size: 28px;
+    }
+    h3{
+        font-size: 16px;
+    }
+    h5{
+        font-size: 14px;
+    }
+    h6{
+        font-size: 10px;
+    }
+    .text-blue{
+        font-size: 12px;
+    }
+    .btn-outline-yellow , .btn-outline-blue ,  .btn-blue{
+        font-size: 12px;
+    }
+
+    
+    .font-s-12{
+        font-size: 10px;
+    }
+}
