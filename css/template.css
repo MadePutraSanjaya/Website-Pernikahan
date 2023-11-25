@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Kaushan+Script&family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-/* font */
-.basker-font{font-family: 'Baskervville', serif; letter-spacing: 0.1em;}
-.montserrat-font{font-family: 'Montserrat', sans-serif;}
-.poppins-font{font-family: 'Poppins', sans-serif;}
-.kaushan-font{font-family: 'Kaushan Script', cursive; letter-spacing: 2px;}
+  @import url('https://fonts.googleapis.com/css2?family=Dynalight&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+  /* font */
+  .dynafont {
+    font-family: 'Dynalight', cursive;
+
+  }
 
 /* title icon */
 .title-icon{
@@ -54,224 +54,81 @@ a{
     font-weight: 800;
 }
 
-.font-s-14{
-    font-size: 14px;
-}
-
-.font-s-12{
-    font-size: 12px;
-}
 /* line */
 .white-line{
     height: 2px;
     width: 50px;
     margin: 15px 0;
-    background-color: white;
+    background-color: #ff9900;
 }
-.white-line-center{
-    height: 2px;
-    width: 50px;
-    margin: 15px auto;
-    background-color: white;
-}
-.white-line-right{
-    height: 2px;
-    width: 50px;
-    margin: 15px 0 15px auto;
-    background-color: white;
-}
-.red-line-center{
-    height: 2px;
-    width: 50px;
-    margin: 15px auto;
-    background-color: #EE273A;
-}
-.pink-line-center{
-    height: 2px;
-    width: 50px;
-    margin: 15px auto;
-    background-color: #F77C7B;
-}
-.black-line{
-    height: 1px;
-    width: 50px;
-    margin: 15px 0 20px;
-    background-color: #212121;
-}
-.brown-line{
-    height: 1px;
-    width: 50px;
-    margin: 15px 0 20px;
-    background-color: #A47E3B;
-}
+
 /* color */
 .text-white{
     color: white !important;
 }
 
 .text-dark{
-    color: #212121 !important;
+    color: #141414 !important;
 }
-.text-light{
-    color: #727272 !important;
-}
+
 .text-gray{
-    color: #7272729f;
+    color: #867474;
+}
+.text-orange{
+    color: #ff9900;
 }
 .text-yellow{
-    color: #ffbb28;
-}
-.text-red{
-    color: #EE273A;
-}
-.text-dark-red{
-    color: #AD2D1D;
-}
-.text-blue{
-    color: #272F9B;
-}
-.text-brown{
-    color: #A47E3B;
-    letter-spacing: 0.2em;
+    color: #ffe500;
 }
 
 
 /* button */
 .btn-outline-white{
-    font-weight: 500;
-    padding: 0.70rem 1.5rem ;
+    font-weight: 600;
+    padding: 1rem 4.5rem;
     position: relative;
     box-shadow: 0;
     overflow: hidden;
     color: white !important;
     background-color: transparent;
-    border-radius: 5px;
+    border-radius: 0 !important;
     border: 2px solid white;
     transition: 0.5s;
 }
 .btn-outline-white:hover {
     background-color: #ffffff;
     border-color: white;
-    color: #EE273A !important;
-}
-.btn-outline-yellow{
-    font-weight: 500;
-    padding: 0.50rem 1.2rem !important;
-    position: relative;
-    box-shadow: 0;
-    overflow: hidden;
-    color: white !important;
-    background-color: #ECA61B;
-    border-radius: 5px;
-    border: 2px solid #ECA61B;
-    transition: 0.5s;
-}
-.btn-outline-yellow:hover {
-    background-color: white;
-    border-color: transparent;
-    color: red !important;
+    color: #141414 !important;
 }
 
-.btn-outline-blue{
+.btn-orange{
     font-weight: 600;
-    padding: 0.70rem 1.5rem ;
-    border-radius: 5px;
-    position: relative;
-    box-shadow: 0;
-    overflow: hidden;
-    color: #272F9B !important;
-    background-color: transparent;
-    border: 0;
-    border: 2px solid #272F9B;
-    transition: 0.5s;
-}
-.btn-outline-blue:hover {
-    background-color: #272F9B ;
-    color: white !important;
-}
-
-.btn-outline-red{
-    font-weight: 600;
-    padding: 0.70rem 1.5rem ;
-    border-radius: 5px;
-    position: relative;
-    box-shadow: 0;
-    overflow: hidden;
-    color: #EE273A !important;
-    background-color: transparent;
-    border: 2px solid #EE273A;
-    transition: 0.5s;
-}
-.btn-outline-red:hover {
-    background-color: #EE273A ;
-    color: white !important;
-}
-
-.btn-dark-red{
-    font-weight: 600;
-    padding: 0.70rem 1.5rem ;
+    padding: 0.70rem 3.5rem ;
     position: relative;
     border-radius: 5px;
     box-shadow: 0;
     overflow: hidden;
     color: white !important;
-    background-color: #AD2D1D;
-    border: 0;
+    background-color: #ff9900;
+    border: 2px solid #ff9900;
     transition: 0.5s;
 }
-.btn-dark-red:hover {
-    background-color: #6e1c12;
-    color: #ffffff !important;
-}
-.btn-red{
-    font-weight: 600;
-    padding: 0.70rem 1.5rem ;
-    position: relative;
-    border-radius: 5px;
-    box-shadow: 0;
-    overflow: hidden;
+.btn-orange:hover {
+    background-color: #CC8B29;
+    border-color: #CC8B29;
     color: white !important;
-    background-color: #EE273A;
-    border: 2px solid #EE273A;
-    transition: 0.5s;
-}
-.btn-red:hover {
-    background-color: #AD2D1D;
-    border-color: #AD2D1D;
-    color: #ffffff !important;
-}
-
-.btn-brown{
-    font-weight: 400;
-    padding: 0.70rem 1.5rem ;
-    position: relative;
-    box-shadow: 0;
-    overflow: hidden;
-    color: white !important;
-    background-color: #A47E3B;
-    border: 0;
-    transition: 0.5s;
-}
-.btn-brown:hover {
-    background-color: #4d3b1c;
-    color: #ffffff !important;
 }
 
 .text-center{
     text-align: center;
 }
 
-/* form  */
-.form-control{
-    min-height: auto;
-}
 /* container width */
 @media (min-width: 1400px){
 .container {
     max-width: 1300px;
 }
 }
-
 
 @media (max-width: 991.5px){
     .section {
@@ -297,21 +154,6 @@ a{
     h6{
         font-size: 14px;
     }
-    .text-blue{
-        font-size: 14px;
-    }
-    .btn-outline-yellow , .btn-outline-blue ,  .btn-blue{
-        font-size: 14px;
-    }
-
-    .font-s-14{
-        font-size: 12px;
-    }
-    
-    .font-s-12{
-        font-size: 11px;
-    }
-    
 
 }
 
@@ -337,17 +179,6 @@ a{
         font-size: 14px;
     }
     h6{
-        font-size: 10px;
-    }
-    .text-blue{
-        font-size: 12px;
-    }
-    .btn-outline-yellow , .btn-outline-blue ,  .btn-blue{
-        font-size: 12px;
-    }
-
-    
-    .font-s-12{
         font-size: 10px;
     }
 }
