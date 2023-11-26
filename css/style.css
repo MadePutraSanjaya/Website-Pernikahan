@@ -18,3 +18,20 @@
     font-size: 2em;
   }
   
+.img-fluid {
+    height: 855px;
+    width: 1440px;
+}
+
+.image-container {
+        position: relative;
+}
+  
+.image-overlay {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff; /* Warna teks */
+        text-align: center;
+      }
