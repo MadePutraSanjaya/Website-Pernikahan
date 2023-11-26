@@ -1,9 +1,9 @@
 .background-container {
-    background-image: url('prewed1.jpeg'); /* Ganti dengan path atau URL latar belakang yang diinginkan */
+    background-image: url('/assets/prewed1.png'); /* Ganti dengan path atau URL latar belakang yang diinginkan */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;

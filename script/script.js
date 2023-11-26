@@ -17,10 +17,10 @@ document.addEventListener('DOMContentLoaded', function () {
       var seconds = Math.floor((distance % (1000 * 60)) / 1000);
   
       // Display the countdown
-      document.getElementById("days").innerHTML = days + "d ";
-      document.getElementById("hours").innerHTML = hours + "h ";
-      document.getElementById("minutes").innerHTML = minutes + "m ";
-      document.getElementById("seconds").innerHTML = seconds + "s ";
+      document.getElementById("days").innerHTML = days + "days ";
+      document.getElementById("hours").innerHTML = hours + "hours ";
+      document.getElementById("minutes").innerHTML = minutes + "minutes ";
+      document.getElementById("seconds").innerHTML = seconds + "seconds ";
   
       // If the countdown is over, display a message
       if (distance < 0) {
