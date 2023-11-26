@@ -2,7 +2,7 @@
 
   /* font */
   .dynafont {
-    font-family: 'Dynalight', cursive;
+    font-family: 'Dynalight', cursive !important;
 
   }
 
