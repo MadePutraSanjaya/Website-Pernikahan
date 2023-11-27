@@ -1,21 +1,24 @@
 .background-container {
-    background-image: url('/assets/prewed1.png'); /* Ganti dengan path atau URL latar belakang yang diinginkan */
+    background-image: url('/assets/prewed1.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 400px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
+    min-height: 453px;
+}
   
   .countdown-container {
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
   }
   
   .countdown-item {
     margin: 0 10px;
-    font-size: 2em;
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Poly', serif;
   }
   
 .img-fluid {
@@ -35,3 +38,78 @@
         color: #fff; /* Warna teks */
         text-align: center;
       }
+
+.wydt {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .countdown-item {
+    flex: 1 0 100%;
+  }
+}
+
+.gallery {
+  text-align: center;
+}
+
+.gallery h2 {
+  font-family: 'Dynalight', cursive;
+  font-size: 70px;
+}
+
+.video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.gallery-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Membagi ruang menjadi tiga kolom */
+  gap: 40px; /* Jarak antar kolom dan baris */
+}
+
+.gallery-item {
+  width: 100%; /* Foto akan mengisi lebar kolom */
+  overflow: hidden; /* Menghilangkan bayangan di sekitar sudut */
+}
+
+.gallery-item img {
+  width: 100%; /* Foto akan mengisi lebar kontainer */
+  height: auto; /* Menjaga rasio aspek foto */
+  display: block; /* Menghilangkan ruang putih di bawah elemen inline */
+}
+
+.gallery-top {
+  position: relative;
+
+}
+
+.gallery-top img {
+  position: absolute;
+  width: 200px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+  height: 200px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+}
+
+.top-left {
+  top: 0;
+  left: 0;
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+}
+
+.bottom-left {
+  bottom: 0;
+  left: 0;
+}
+
+.bottom-right {
+  bottom: 0;
+  right: 0;
+}
