@@ -1,5 +1,5 @@
 .background-container {
-    background-image: url('/assets/prewed1.png');
+    background-image: url('/assets/prewed1.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -60,25 +60,10 @@
   font-size: 70px;
 }
 
-.video-container {
-  position: relative;
-  overflow: hidden;
-  padding-bottom: 56.25%; /* 16:9 aspect ratio (change as needed) */
-  max-width: 100%;
-}
-
-video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
 .container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Membagi ruang menjadi tiga kolom */
-  gap: 30px; /* Jarak antar kolom dan baris */
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px; 
 }
 
 .gallery-top {
@@ -88,8 +73,8 @@ video {
 
 .gallery-top img {
   position: absolute;
-  width: 200px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
-  height: 200px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+  width: 200px; 
+  height: 200px; 
 }
 
 .top-left {
@@ -110,4 +95,17 @@ video {
 .bottom-right {
   bottom: 0;
   right: 0;
+}
+
+.gallery-down {
+  position: relative;
+
+}
+
+.gallery-down img {
+  position: absolute;
+  top: -50px;
+  bottom: 0;
+  width: 200px; 
+  height: 200px; 
 }
