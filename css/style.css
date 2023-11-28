@@ -1,3 +1,26 @@
+.background-container {
+    background-image: url('/assets/prewed1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 453px;
+}
+  
+  .countdown-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .countdown-item {
+    margin: 0 10px;
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Poly', serif;
+  }
+  
 .img-fluid {
     height: 855px;
     width: 1440px;
@@ -110,5 +133,73 @@
         }
       }
 
+.wydt {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+}
 
+@media (max-width: 768px) {
+  .countdown-item {
+    flex: 1 0 100%;
+  }
+}
 
+.gallery {
+  text-align: center;
+}
+
+.gallery h2 {
+  font-family: 'Dynalight', cursive;
+  font-size: 70px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px; 
+}
+
+.gallery-top {
+  position: relative;
+
+}
+
+.gallery-top img {
+  position: absolute;
+  width: 200px; 
+  height: 200px; 
+}
+
+.top-left {
+  top: 0;
+  left: 0;
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+}
+
+.bottom-left {
+  bottom: 0;
+  left: 0;
+}
+
+.bottom-right {
+  bottom: 0;
+  right: 0;
+}
+
+.gallery-down {
+  position: relative;
+
+}
+
+.gallery-down img {
+  position: absolute;
+  top: -50px;
+  bottom: 0;
+  width: 200px; 
+  height: 200px; 
+}
