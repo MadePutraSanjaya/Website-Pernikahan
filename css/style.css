@@ -1,13 +1,46 @@
+
 .img-fluid1 {
     height: 571px;
     width: 1476px;
     background-image: none;
+
+.background-container {
+    background-image: url('/assets/prewed1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 453px;
+}
+  
+  .countdown-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  
+  .countdown-item {
+    margin: 0 10px;
+    font-size: 80px;
+    text-align: center;
+    font-family: 'Poly', serif;
+  }
+  
+.img-fluid {
+    height: 855px;
+    width: 1440px;
 }
 
     
 
 .image-container {
         position: relative;
+        min-height: 844px;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        background-image: url("../assets/KMP_8615.jpg");
 }
   
 .image-overlay {
@@ -17,7 +50,98 @@
         transform: translate(-50%, -50%);
         color: #fff; /* Warna teks */
         text-align: center;
+}
+
+.image-kotak {
+        background-image: url("../assets/kotakkotak.png");
+        background-position: 50% 50%;
+        min-height: 844px;
+        background-repeat: no-repeat;
+}
+
+.gradient {
+        background-image: url("../assets/gradient.png");
+        background-position: 50% 50%;
+        min-height: 844px;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.white-outline-button {
+        padding: 10px 20px;
+        font-size: 16px;
+        color: #ffffff;
+        background-color: transparent;
+        border: 2px solid #ffffff;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+        
+}
+
+.btn .white-outline-button-white {
+        width: 473px;
+        height: 102px;
+        flex-shrink: 0; 
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff; /* Warna teks */
+        text-align: center;
+}
+
+.button-overlay {
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff; /* Warna teks */
+        text-align: center; 
+}
+
+.section-one-text {
+        text-align: center;
+}
+.section-one-text h3 {
+        font-size: 80px;
+}
+
+/* section 1 */
+.image-person-img {
+        max-width: 383px;
+        box-shadow: 0px 0px 50px 15px rgba(0, 0, 0, 0.25);
+}
+.image-person-img img {
+        width: 382px;
+        height: 500px;
+        border-radius: 10px;
+        object-fit: cover;
+        box-shadow: 0px 0px 50px 15px rgba(0, 0, 0, 0.25);
+}
+.image-person-text {
+
+}
+.image-person-text h1:first-child {
+        font-size: 80px;
+}
+
+.flower-img img {
+        top: 970px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+        .section-text-image1 img, .section-text-image2 img {
+                width: 350px;
+                height: 100px;
+                margin: auto;
+        }
       }
+
+  
 .background-container{
         background-image: url(/assets/Rectangle\ 36.png);
         background-size: cover;
@@ -85,3 +209,101 @@
        width: 5px;
        
 }  
+
+
+.wydt {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+
+@media (max-width: 768px) {
+  .countdown-item {
+    flex: 1 0 100%;
+  }
+}
+
+.gallery {
+  text-align: center;
+}
+
+.gallery h2 {
+  font-family: 'Dynalight', cursive;
+  font-size: 70px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px; 
+}
+
+.gallery-top {
+  position: relative;
+
+}
+
+.gallery-top img {
+  position: absolute;
+  width: 200px; 
+  height: 200px; 
+}
+
+.top-left {
+  top: 0;
+  left: 0;
+}
+
+.top-right {
+  top: 0;
+  right: 0;
+}
+
+.bottom-left {
+  bottom: 0;
+  left: 0;
+}
+
+.bottom-right {
+  bottom: 0;
+  right: 0;
+}
+
+.gallery-down {
+  position: relative;
+
+}
+
+.gallery-down img {
+  position: absolute;
+  top: -50px;
+  bottom: 0;
+  width: 200px; 
+  height: 200px; 
+}
+
+.footer-background {
+  background-image: url('/assets/image\ 14.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 450px;
+
+}
+
+.nama-keterangan {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+  
+}
+
+.ucapan {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 150px;
+}
+
