@@ -28,6 +28,11 @@
 
 .image-container {
         position: relative;
+        min-height: 844px;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        background-size: cover;
+        background-image: url("../assets/KMP_8615.jpg");
 }
   
 .image-overlay {
@@ -37,6 +42,95 @@
         transform: translate(-50%, -50%);
         color: #fff; /* Warna teks */
         text-align: center;
+}
+
+.image-kotak {
+        background-image: url("../assets/kotakkotak.png");
+        background-position: 50% 50%;
+        min-height: 844px;
+        background-repeat: no-repeat;
+}
+
+.gradient {
+        background-image: url("../assets/gradient.png");
+        background-position: 50% 50%;
+        min-height: 844px;
+        background-repeat: no-repeat;
+        background-size: cover;
+}
+
+.white-outline-button {
+        padding: 10px 20px;
+        font-size: 16px;
+        color: #ffffff;
+        background-color: transparent;
+        border: 2px solid #ffffff;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+        
+}
+
+.btn .white-outline-button-white {
+        width: 473px;
+        height: 102px;
+        flex-shrink: 0; 
+        position: absolute;
+        top: 80%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff; /* Warna teks */
+        text-align: center;
+}
+
+.button-overlay {
+        position: absolute;
+        top: 90%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #fff; /* Warna teks */
+        text-align: center; 
+}
+
+.section-one-text {
+        text-align: center;
+}
+.section-one-text h3 {
+        font-size: 80px;
+}
+
+/* section 1 */
+.image-person-img {
+        max-width: 383px;
+        box-shadow: 0px 0px 50px 15px rgba(0, 0, 0, 0.25);
+}
+.image-person-img img {
+        width: 382px;
+        height: 500px;
+        border-radius: 10px;
+        object-fit: cover;
+        box-shadow: 0px 0px 50px 15px rgba(0, 0, 0, 0.25);
+}
+.image-person-text {
+
+}
+.image-person-text h1:first-child {
+        font-size: 80px;
+}
+
+.flower-img img {
+        top: 970px;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: -1;
+}
+
+@media screen and (max-width: 768px) {
+        .section-text-image1 img, .section-text-image2 img {
+                width: 350px;
+                height: 100px;
+                margin: auto;
+        }
       }
 
 .wydt {
