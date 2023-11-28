@@ -1,3 +1,9 @@
+
+.img-fluid1 {
+    height: 571px;
+    width: 1476px;
+    background-image: none;
+
 .background-container {
     background-image: url('/assets/prewed1.jpg');
     background-size: cover;
@@ -25,6 +31,8 @@
     height: 855px;
     width: 1440px;
 }
+
+    
 
 .image-container {
         position: relative;
@@ -133,6 +141,76 @@
         }
       }
 
+  
+.background-container{
+        background-image: url(/assets/Rectangle\ 36.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat ;
+        min-height: 600px;
+}
+
+.countdown-container {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin-top: 20px;
+  }
+.blur{
+        width: 417px;
+        height: 246px;
+        flex-shrink: 0;
+        border-radius: 10px;
+        background: rgba(153, 206, 255, 0.22);
+        backdrop-filter: blur(6px);
+        margin-left: 120px;
+        margin-top: 230px;
+ }  
+.bca{
+        
+        margin-left: 50px ;
+        margin-top: -40px;
+}
+.bri{
+        
+        margin-left: 95px ;
+        margin-top: 20px;
+}
+.mandiri{
+        
+        margin-left: 110px ;
+        margin-top: 20px;
+}
+.linewhite{
+        width: 350px;
+        height: 2px;
+        background-color: white;
+        margin-top:30px ;
+        margin-left: 30px;
+}
+.linewhite1{
+        width: 350px;
+        height: 3px;
+        background-color: white;
+        margin-top:-45px;
+        margin-left: 30px;
+}
+.akun{
+        font-size: 30xp;
+        margin-left: 90px;
+        margin-top: 15px;
+        width:35px;
+        
+}
+.nama{
+        margin-left:100px;
+        margin-top: 15px; 
+       width: 5px;
+       
+}  
+
+
 .wydt {
   text-align: center;
   font-size: 50px;
@@ -228,3 +306,4 @@
   position: relative;
   top: 150px;
 }
+
