@@ -109,3 +109,28 @@
   width: 200px; 
   height: 200px; 
 }
+
+.footer-background {
+  background-image: url('/assets/image\ 14.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 450px;
+
+}
+
+.nama-keterangan {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  position: relative;
+  top: 100px;
+  
+}
+
+.ucapan {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 150px;
+}
