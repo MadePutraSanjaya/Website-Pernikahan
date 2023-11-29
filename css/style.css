@@ -108,6 +108,8 @@
   backdrop-filter: blur(6px);
   margin-left: 120px;
   margin-top: 230px;
+  margin-bottom: 150px;
+
 }
 .bca {
   margin-left: 50px;
@@ -217,12 +219,16 @@
   height: auto;
 }
 
+.amplop {
+  font-size: 100px;
+}
+
 .footer-background {
   background-image: url("/assets/image\ 14.png");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  min-height: 450px;
+  height: 690px;
 }
 
 .nama-keterangan {
@@ -230,14 +236,14 @@
   text-align: center;
   justify-content: center;
   position: relative;
-  top: 100px;
+  top: 240px;
 }
 
 .ucapan {
   display: flex;
   justify-content: center;
   position: relative;
-  top: 150px;
+  top: 300px;
 }
 
 /* responsive */
@@ -266,3 +272,5 @@
     flex: 1 0 100%;
   }
 }
+
+
