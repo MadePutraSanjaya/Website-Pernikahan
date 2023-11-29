@@ -139,14 +139,17 @@
   font-size: 30xp;
   margin-left: 90px;
   margin-top: 15px;
-  width: 35px;
 }
 .nama {
-  margin-left: 100px;
-  margin-top: 15px;
-  width: 5px;
+  margin-left: 90px;
+  font-style: unset;
 }
-
+.nama-bri{
+  margin-top: -8px;
+}
+.nama-bca{
+  margin-top: -8px;
+}
 .wydt {
   text-align: center;
   font-size: 50px;
