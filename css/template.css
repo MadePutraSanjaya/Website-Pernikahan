@@ -59,11 +59,18 @@ a {
 }
 
 /* line */
-.white-line {
+.orange-line {
   height: 2px;
   width: 50px;
-  margin: 15px 0;
+  margin: 15px auto;
   background-color: #ff9900;
+}
+
+.white-line {
+  height: 1px;
+  width: 90%;
+  margin: 10px auto;
+  background-color: white;
 }
 
 /* color */
@@ -80,6 +87,8 @@ a {
 }
 .text-orange {
   color: #ff9900;
+  letter-spacing: 5.1px !important;
+    font-weight: 600;
 }
 .text-yellow {
   color: #ffe500;
@@ -147,21 +156,14 @@ a {
     font-weight: 400;
     line-height: 25px;
   }
-  h1 {
-    font-size: 34px;
-  }
-  h3 {
-    font-size: 22px;
-  }
-  h5 {
-    font-size: 16px;
-  }
-  h6 {
-    font-size: 14px;
-  }
+ 
 }
 
 @media (max-width: 575.5px) {
+  .btn-outline-white {
+    padding: 1rem 1rem;
+    font-size: 14px;
+  }
   .section {
     padding: 40px 0;
   }
@@ -175,16 +177,5 @@ a {
     font-weight: 400;
     line-height: 20px;
   }
-  h1 {
-    font-size: 28px;
-  }
-  h3 {
-    font-size: 16px;
-  }
-  h5 {
-    font-size: 14px;
-  }
-  h6 {
-    font-size: 10px;
-  }
+ 
 }
