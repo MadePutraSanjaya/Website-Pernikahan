@@ -89,7 +89,7 @@
   z-index: -1;
 }
 .background-container {
-  background-image: url("/assets/prewed1.jpg");
+  background-image: url("../assets/prewed1.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -211,7 +211,7 @@
 
 /* section 4 */
 .amplop-digital {
-  background-image: url("/assets/prewed1.jpg");
+  background-image: url("../assets/prewed1.jpg");
   min-height: 450px;
   background-repeat: no-repeat;
   background-position: 50% 50%;
